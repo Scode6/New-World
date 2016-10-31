@@ -216,10 +216,10 @@ $(function () {
                $(".selectbox").parents(".cartitemdetail").css("background-color","#fff");
             });
         } else {
-            $("img.selectall").attr("src","http:img/site/cartSelected.png");
+            $("img.selectall").attr("src","img/site/cartSelected.png");
             $("img.selectall").attr("selectit","true")
             $(".selectbox").each(function(){
-                $(this).attr("src","http:img/site/cartSelected.png");
+                $(this).attr("src","img/site/cartSelected.png");
                 $(this).attr("selectit","true");
                 $(this).parents(".cartitemdetail").css("background-color","#FFF8E1");
             });
