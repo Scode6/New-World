@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 Git is a good system.
+=======
+Git is a good system.
+Creating a new branch is quick.
+>>>>>>> dev
