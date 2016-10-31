@@ -1,0 +1,193 @@
+#shopchartpage{
+    width:1024px;
+    margin:60px auto;
+    padding-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.carttitle{
+    margin-bottom: 10px;
+}
+
+.carttitle button{
+    background-color: #aaa;
+    border:1px solid #aaa;
+    color: #fff;
+    width:53px;
+    height:25px;
+    border-radius: 2px;
+}
+
+.carttitle span span{
+    color: #c40000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.cartfooter{
+    background-color: #e5e5e5;
+    line-height: 50px;
+    height:50px;
+    margin:20px 0;
+    color: #000;
+    padding-left: 20px;
+}
+
+.cartfooter button{
+    background-color: #aaa;
+    border:0px solid #aaa;
+    color: #fff;
+    width:120px;
+    height:50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.selectitems{
+    cursor: pointer;
+}
+
+.selectnum{
+    font-size: 16px;
+    color: #c40000;
+    font-weight: bold;
+}
+
+.cartsumprice{
+    font-size: 20px;
+    color: #c40000;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.cartbodytitle{
+    margin:10px 0;
+}
+
+.cartbodytitleselect{
+    display: inline-block;
+    width:170px;
+}
+
+.cartbodytitleselect img{
+    margin-left: 20px;
+}
+
+.cartbodytitleinfo{
+    display: inline-block;
+    width:430px;
+}
+
+.cartbodytitleprice{
+    display: inline-block;
+    width:100px;
+}
+
+.cartbodytitlenum{
+    display: inline-block;
+    width:120px;
+}
+
+.cartbodytitlesum{
+    display: inline-block;
+    width:120px;
+}
+
+.cartbodytitlemove{
+    display: inline-block;
+}
+
+.cartitemdetail{
+    border:1px solid #ccc;
+    padding: 20px;
+    height:120px;
+    vertical-align: top;
+}
+
+.cartitemdetail li{
+    list-style-type: none;
+    margin:0;
+    float: left;
+    position: relative;
+}
+
+.cartbodytext{
+    width:150px;
+}
+
+.cartbodytext img:first-child{
+    margin-right: 10px;
+}
+
+.cartbodyinfo{
+    width:430px;
+}
+
+.cartbodyinfo p:last-child{
+    margin-top: 40px;
+}
+
+.cartbodyinfo p a{
+    color: #000;
+}
+
+.cartbodyinfo p a:hover{
+    color: #c40000;
+}
+
+.cartbodyprice{
+    width:100px;
+}
+
+.cartbodyprice p:first-child{
+    color: #999;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.cartbodyprice p:last-child{
+    color: #c40000;
+    font-weight: bold;
+}
+
+.cartbodynum{
+    width:120px;
+}
+
+.cartbodynum a{
+    display: inline-block;
+    height:23px;
+    width:17px;
+    border:1px solid #e5e5e5;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #333;
+    margin:0;
+    float: left;
+}
+
+.cartbodynum input{
+    width:39px;
+    height:23px;
+    border:1px solid #aaa;
+    color: #343434;
+    text-align: center;
+    padding:3px;
+    background-color: #fff;
+    float: left;
+}
+
+.cartsmallsumprice{
+    color: #c40000;
+    font-weight: bold;
+    width:136px;
+}
+
+.cartsumnum{
+    font-size: 16px;
+    color: #c40000;
+    font-weight: 600;
+}
