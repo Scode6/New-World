@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>shopcart</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/shopchart.css">
+    <link rel="stylesheet" href="css/regular_search.css">
+</head>
+<body>
+<!--置顶导航-->
+<header>
+    <nav>
+        <a href="1index.html">
+            <span class="glyphicon glyphicon-home redcolor"></span>
+            Gift Town
+        </a>
+        <span>欢迎来到 Gift Town</span>
+        <a href="#">请登录</a>
+        <a href="#">免费注册</a>
+
+        <span class="pull-right">
+        <a href="6myOrderList.html">我的订单</a>
+        <a href="5shopchart.html">
+        <span class="glyphicon glyphicon-shopping-cart redcolor"></span>
+        购物车 <strong> 0 </strong>件</a>
+    </span>
+
+    </nav>
+</header>
+
+<!--一般搜索栏-->
+<div id="rsearcharea" class="clearfix">
+    <a href="1index.html"><img src="img/site/logo.jpg" alt="logo" id="relogo"></a>
+    <div class="rsearchdiv">
+        <input type="text" name="searchbox" placeholder="简易现代小书架">
+        <button class="searchbtn" type="submit">搜 索</button>
+        <div class="rsearchbelow">
+            <span><a href="#"> 平衡车 </a><span>|</span></span>
+            <span><a href="#"> 扫地机器人 </a><span>|</span></span>
+            <span><a href="#"> 原汁机 </a><span>|</span></span>
+            <span><a href="#"> 冰箱 </a><span>|</span></span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--购物车页面-->
+<div id="shopchartpage">
+    <div class="carttitle pull-right">
+        <span>已选商品 (不含运费) <span class="cartsumprice">￥ 0.00</span></span>
+        <button class="orderbtn" disabled="disabled">结 算</button>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="cartbody">
+        <div class="cartbodytitle">
+            <div class="cartbodytitleselect">
+                <a href="#"><img class="selectall" selectit="false" src="img/site/cartNotSelected.png " alt="selectzone"></a>
+                <span>全选</span>
+            </div>
+            <div class="cartbodytitleinfo">
+                <span>商品信息</span>
+            </div>
+            <div class="cartbodytitleprice">
+                <span>单价</span>
+            </div>
+            <div class="cartbodytitlenum">
+                <span>数量</span>
+            </div>
+            <div class="cartbodytitlesum">
+                <span>金额</span>
+            </div>
+            <div class="cartbodytitlemove">
+                <span>操作</span>
+            </div>
+        </div>
+
+        <ul class="cartitemdetail clearfix">
+            <li class="cartbodytext">
+                <a href="#nowhere"><img class="selectbox" selectit="false" src="img/site/cartNotSelected.png" alt="selectzone" proid="1"></a>
+                <img src="img/site/iknowhtml.jpg" alt="tshirt">
+            </li>
+            <li class="cartbodyinfo">
+                <p><a href="#nowhere">美剧硅谷黑历史silicon valley I Know HTML幽默类男短袖夏天T恤</a></p>
+                <p><img src="img/site/renzheng.png" alt="renzheng"></p>
+            </li>
+            <li class="cartbodyprice">
+                <p>￥60.00</p>
+                <p>￥51.00</p>
+            </li>
+            <li class="cartbodynum">
+                <span itemid="001" class="hidden cartstock">17</span>
+                <span itemid="001" class="hidden cartproprice">51</span>
+                <a href="#nowhere" class="cartbodynumminus" itemid="001">-</a>
+                <input type="text" value="1" class="cartbodynuminput" proid="1" itemid="001">
+                <a href="#nowhere" class="cartbodynumplus" itemid="001">+</a>
+            </li>
+            <li class="cartsmallsumprice">
+                <p class="cartsmallprice" proid="1" itemid="001">￥51.00</p>
+            </li>
+            <li class="cartbodymove">
+                <a href="#nowhere">删除</a>
+            </li>
+        </ul>
+
+        <ul class="cartitemdetail clearfix">
+            <li class="cartbodytext">
+                <a href="#nowhere"><img class="selectbox" selectit="false" src="img/site/cartNotSelected.png" alt="selectzone" proid="2"></a>
+                <img src="img/site/dengpao.jpg" alt="tshirt">
+            </li>
+            <li class="cartbodyinfo">
+                <p><a href="#nowhere">美剧硅谷黑历史silicon valley I Know HTML幽默类男短袖夏天T恤</a></p>
+                <p><img src="img/site/renzheng.png" alt="renzheng"></p>
+            </li>
+            <li class="cartbodyprice">
+                <p>￥100.00</p>
+                <p>￥88.00</p>
+            </li>
+            <li class="cartbodynum">
+                <span itemid="002" class="hidden cartstock">99</span>
+                <span itemid="002" class="hidden cartproprice">88</span>
+                <a href="#nowhere" class="cartbodynumminus" itemid="002">-</a>
+                <input type="text" value="1" class="cartbodynuminput" proid="2" itemid="002">
+                <a href="#nowhere" class="cartbodynumplus" itemid="002">+</a>
+            </li>
+            <li class="cartsmallsumprice">
+                <p class="cartsmallprice" proid="2" itemid="002">￥88.00</p>
+            </li>
+            <li class="cartbodymove">
+                <a href="#nowhere">删除</a>
+            </li>
+        </ul>
+
+
+
+
+    </div>
+
+    <div class="cartfooter">
+        <img src="img/site/cartNotSelected.png" alt="notselected" class="selectall" selectit="false">
+        <span>全选</span>
+        <!--<a href="#">删除</a>-->
+        <div class="pull-right">
+            <span>已选商品 <span class="cartsumnum">0</span> 件</span>
+            <span>合计 （不含运费）： </span>
+            <span class="cartsumprice">￥ 0.00</span>
+            <button class="orderbtn" disabled="disabled">结 算</button>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div id="helparea1">
+        <a href="#"><img src="img/site/ensure.png" alt="helpimage" id="helpimage"></a>
+    </div>
+    <div id="helparea2" class="clearfix">
+        <ul id="linklist">
+            <li>
+                <ul id="shopguide">
+                    <li class="ultitle">购物指南</li>
+                    <li><a href="#">免费注册</a></li>
+                    <li><a href="#">开通支付宝</a></li>
+                    <li><a href="#">支付宝充值</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul id="protection">
+                    <li class="ultitle">保障</li>
+                    <li><a href="#">发票保障</a></li>
+                    <li><a href="#">售后规则</a></li>
+                    <li><a href="#">缺货赔付</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul id="checkway">
+                    <li class="ultitle">支付方式</li>
+                    <li><a href="#">快捷支付</a></li>
+                    <li><a href="#">信用卡</a></li>
+                    <li><a href="#">余额宝</a></li>
+                    <li><a href="#">来啊花呗</a></li>
+                    <li><a href="#">货到付款</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul id="servive">
+                    <li class="ultitle">商家服务</li>
+                    <li><a href="#">商家入驻</a></li>
+                    <li><a href="#">商家中心</a></li>
+                    <li><a href="#">GT智库</a></li>
+                    <li><a href="#">GT规则</a></li>
+                    <li><a href="#">物流服务</a></li>
+                    <li><a href="#">喵言喵语</a></li>
+                    <li><a href="#">运营服务</a></li>
+                </ul>
+            </li>
+            <li>
+                <ul id="phoneshop">
+                    <li class="ultitle">手机科科</li>
+                    <li><img src="img/site/ma.png" alt="two-dimensional code"></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="helparea3">
+        <div id="information">
+            <ul id="info1">
+                <li><a href="#">关于Gift Town</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">开放平台</a></li>
+                <li><a href="#">诚聘英才</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">网站合作</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">知识产权</a></li>
+                <li><a href="#">廉政举报</a></li>
+            </ul>
+            <ul id="info2">
+                <li><a href="#">高科技集团 </a></li>
+                <li><a href="#">| 机核网 </a></li>
+                <li><a href="#">| Acfun </a></li>
+                <li><a href="#">| Bilibili </a></li>
+                <li><a href="#">| iherb </a></li>
+                <li><a href="#">| 那种网站 </a></li>
+                <li><a href="#">| 你知道的 </a></li>
+                <li><a href="#">| LOL </a></li>
+                <li><a href="#">| 文明6 </a></li>
+            </ul>
+            <ul id="info3">
+                <li>增值电信业务经营许可证： aaaaaaaaccccc</li>
+                <li>网络文化经营许可证：aaaaaaaaccccc</li>
+                <li>互联网医疗保健信息服务 aaaaaaaaccccc</li>
+            </ul>
+            <ul id="info6">
+                <li>互联网药品信息服务资质证书编号：aaaaaaaaccccc</li>
+                <li>© 2003-2016 TMALL.COM 版权所有</li>
+            </ul>
+
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/global.js"></script>
+</body>
+</html>
